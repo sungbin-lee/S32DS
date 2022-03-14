@@ -1,0 +1,12 @@
+-DCPU_S32K144HFT0VLLT
+-I"F:/workspaceS32DS.ARM.2.2/LEC3_interrupt/include"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-ffunction-sections
+-fdata-sections
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"

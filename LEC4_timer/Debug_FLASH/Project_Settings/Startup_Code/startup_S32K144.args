@@ -1,0 +1,8 @@
+-c
+-I"F:/workspaceS32DS.ARM.2.2/LEC4_timer/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"

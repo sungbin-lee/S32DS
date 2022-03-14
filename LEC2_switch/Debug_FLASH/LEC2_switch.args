@@ -1,0 +1,13 @@
+-T
+"F:/workspaceS32DS.ARM.2.2/LEC2_switch/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"LEC2_switch.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/main.o"
