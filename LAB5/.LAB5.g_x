@@ -1,0 +1,99 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="8">
+        <Line>"${ProjDirPath}/SDK/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/FreeRTOS_S32K/Source/include"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/common"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K148/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K148/startup"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>USING_OS_FREERTOS</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K148_176"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297454" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/stream_buffer.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979892" FileType="1048576" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297705" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297473" FileType="1048576" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297697" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297200" FileType="1048576" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297441" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/StackMacros.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979860" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F/port.c" FileDate="2020-06-02, 19:33:00" FileAge="1591093980962" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2020-06-02, 19:33:01" FileAge="1591093981099" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/queue.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979645" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297373" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297669" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/list.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979623" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/tasks.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979679" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297411" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297245" FileType="1048576" />
+      <File Name="Documentation/LAB5_Settings.xml" FileDate="2020-06-02, 19:33:01" FileAge="1591093981129" FileType="3072" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/semphr.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979848" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/event_groups.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979602" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F/portmacro.h" FileDate="2020-06-02, 19:33:00" FileAge="1591093980968" FileType="1048576" />
+      <File Name="SDK/platform/devices/S32K148/startup/system_S32K148.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297609" FileType="1048576" />
+      <File Name="Documentation/LAB5.txt" FileDate="2020-06-02, 19:33:01" FileAge="1591093981211" FileType="3072" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/timers.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979703" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/timers.h" FileDate="2020-06-02, 19:33:00" FileAge="1591093980942" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/FreeRTOS.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979775" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/croutine.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979597" FileType="1048576" />
+      <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2020-06-02, 19:33:01" FileAge="1591093981032" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/devices/S32K148/include/S32K148.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297653" FileType="1048576" />
+      <File Name="SDK/platform/devices/S32K148/startup/system_S32K148.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297622" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/projdefs.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979840" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/stack_macros.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979884" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/deprecated_definitions.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979750" FileType="1048576" />
+      <File Name="Sources/main.c" FileDate="2020-06-02, 19:32:40" FileAge="1591093960853" FileType="128" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297451" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/mpu_wrappers.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979819" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/message_buffer.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979787" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297425" FileType="1048576" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297718" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/list.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979778" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/mpu_prototypes.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979804" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297098" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297293" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/stream_buffer.c" FileDate="2020-06-02, 19:32:59" FileAge="1591093979674" FileType="1048576" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297709" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/MemMang/heap_2.c" FileDate="2020-06-02, 19:33:00" FileAge="1591093980952" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297214" FileType="1048576" />
+      <File Name="SDK/platform/devices/S32K148/include/S32K148_features.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297641" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297398" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297056" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297278" FileType="1048576" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297546" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297205" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297269" FileType="1048576" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297572" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297376" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/queue.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979844" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/portable.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979824" FileType="1048576" />
+      <File Name="Generated_Code/FreeRTOS.c" FileDate="1970-01-01, 08:59:59" FileAge="-1" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2020-06-02, 10:28:17" FileAge="1591061297230" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/event_groups.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979769" FileType="1048576" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297448" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2020-06-02, 10:28:17" FileAge="1591061297310" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/croutine.h" FileDate="2020-06-02, 19:32:59" FileAge="1591093979724" FileType="1048576" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/task.h" FileDate="2020-06-02, 19:33:00" FileAge="1591093980938" FileType="1048576" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>2</CodeGenReference>
+</CodeGenerationInfo>

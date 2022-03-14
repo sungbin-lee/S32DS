@@ -1,0 +1,17 @@
+-c
+-I"F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/arm32_ewl2/EWL_C/include"
+-I"F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/arm32_ewl2/EWL_C/include/arm"
+-I"F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/arm32_ewl2/EWL_Runtime/include"
+-I"F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/arm32_ewl2/EWL_Runtime/include/arm"
+-I"F:/workspaceS32DS.ARM.2.2/LAB6/include"
+-x assembler-with-cpp
+-DTURN_ON_CPU0
+-DSEMIHOSTING
+-DUSING_OS_FREERTOS
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=ewl_c9x_hosted.specs
+--sysroot="F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/arm32_ewl2"

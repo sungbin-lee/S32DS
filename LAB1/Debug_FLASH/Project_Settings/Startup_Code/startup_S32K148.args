@@ -1,0 +1,13 @@
+-c
+-I"F:/workspaceS32DS.ARM.2.2/LAB1/include"
+-x assembler-with-cpp
+-DTURN_ON_CPU0
+-DSEMIHOSTING
+-DUSING_OS_FREERTOS
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=rdimon.specs
+--sysroot="F:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
